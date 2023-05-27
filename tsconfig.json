@@ -1,0 +1,6 @@
+{
+	"compilerOptions": {
+        // don't look for types
+		"noImplicitAny": false
+	}
+}
