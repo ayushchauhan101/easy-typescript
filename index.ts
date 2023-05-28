@@ -14,19 +14,20 @@ const calculator = (a: number, b: number, op: Operation): number => {
 			if (b === 0) {
 				throw new Error("cannot divide by 0")
 			}
+			return a / b
 		default:
 			throw new Error("Not add, divide or multiply operation")
 	}
 }
 
-console.log(calculator(1, 2, "add"))
+try {
+	console.log(calculator(1, 5, "divide"))
+} catch (error: unknown) {
+	let errorMessage = "Something went wrong: "
+	if (error instanceof Error) {
+		errorMessage += error.message
+	}
+	console.log(errorMessage)
+}
 
-// using if else
-// const calculator = (a: number, b: number, op: Operation): ResultType => {
-// 	if (op === "multiply") return a * b
-// 	else if (op === "add") return a + b
-// 	else if (op === "divide") {
-// 		if (b === 0) return "cannot divide by 0"
-// 		return a / b
-// 	}
-// }
+console.log(process.argv)
