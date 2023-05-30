@@ -1,32 +1,17 @@
 # easy-typescript
 
-### Learn Typescript on-the-go, small and easy typescript examples for beginners.
+### Part1
 
-Simple and easy to understand typescript codes
+This branch contains simple typescript examples:
 
-There are incremental updates starting from simple codes.
-Copy and paste from **steps** directory to **index.ts** before running.
+- How to create ts file
+- How to run 
+- What packages to downaload
 
 ---
-
-To start this project:
-
-- Clone this repo
-
+#### Install typescript and ts-node as devdependencies
 ```
-git clone https://github.com/ayushchauhan101/easy-typescript.git
-```
-
-- Install the whole repo
-
-```
-npm install
-```
-
-- Run the project
-
-```
-npm run start
+npm i typescript ts-node -D
 ```
 
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_
