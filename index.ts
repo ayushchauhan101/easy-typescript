@@ -1,3 +1,9 @@
+function myFunction<T1, T2>(data1: T1, data2: T2) {
+	console.log(data1, data2)
+}
+
+myFunction(1, [1, 2, "hello"])
+
 function toArray<T>(input: T): Array<T> {
 	return [input]
 }

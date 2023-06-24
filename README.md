@@ -16,6 +16,16 @@ npm run start
 
 ### Examples and explanations
 
+- creating a basic function to return an argument
+
+```ts
+function myFunction<T>(data: T) {
+	return data
+}
+```
+
+- myFunction will return everything and saves time from mentioning the type explicitly
+
 - Creating a function and using **Generics** to define the argument
 
 ```ts
