@@ -1,6 +1,6 @@
 # easy-typescript
 
-### Part3 - Tuples and Enums
+### Part4 - Tuples and Enums
 
 **Tuple:**
 
