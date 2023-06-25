@@ -1,57 +1,46 @@
 # easy-typescript
 
-### Part3 - types
+### Part3 - Tuples and Enums
 
-#### All typescript types:
+**Tuple:**
 
-- number
-- string
-- boolean
-- null
-- undefined
-- object
-- any
-- unkown
-- neven
-- enum
-- tuple
-
----
-
-- Decalre a type to a variable using '`:`'
+- Store multiple fields of different types.
 
 ```ts
-let phone_number: number = 830012377493
-let myName: string = "victor strange"
+const myTuple: [string, number] = ["hello", 18]
 ```
 
-- Typescript assumes any type if the variable is not specified.
-- Type checking is the major feature that comes with typescript; implicitly undefined types raises error
+**Enum:**
+
+- Allow you to define a set of named constants.
+- Enumerates and gives increment value to each subsequent element.
 
 ```ts
-function greet(args) {
-	console.log(args)
+enum Size {
+	Small,
+	Medium,
+	Large,
+	ExtraLarge,
 }
 ```
 
-- Leaving the argument `args` raises warning via typescript; better to explicitly mention a type like :
+- Typescript assigns a number value to each just like in an array like, Small = 0, Medium = 1 and so on.
+- Call the enum type to later assign any chosen element from the enum
 
 ```ts
-function greet(args: any) {
-	console.log(args)
-}
+let shoeSize: Size = Size.Large
 ```
 
-- This removes any warnings and the function works again
-
----
-
-- To create an array use `[]` to specify em empty array after a type
+- shoeSize will be given a value of 2
+- other value can be assigned to the enum elements but it must be mentioned for each one
 
 ```ts
-let newArray: number[] = [1, 2, 2, 3, 5]
-OR
-let letterArray: string[] = ["a", "b", "hello"]
+enum Size {
+	Small = "s",
+	Medium = "m",
+	Large = "l",
+	ExtraLarge = "xl",
+}
 ```
 
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_

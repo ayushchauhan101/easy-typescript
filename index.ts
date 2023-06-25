@@ -1,12 +1,19 @@
-let phone: number = 32522
-let course: string = "english"
-let is_completed = true
+// tuple
+let user: [number, string]
+user = [1, "adam"]
+console.log(user)
 
-function greet(args: any) {
-	console.log(args)
+// enum
+enum Week {
+	Sunday,
+	Monday,
+	Tuesday,
+	Wednesday,
+	Thursday,
+	Friday,
 }
-greet("hello")
 
-let my_array: number[] = []
-my_array = [2, 3, 5, 6]
-console.log(my_array)
+let myDay: Week = Week.Tuesday
+console.log(myDay)
+let gymCloseDay: Week = Week.Friday
+console.log(`The gym does not open on day ${gymCloseDay}.`)
