@@ -42,10 +42,14 @@ const var_name: string = "this is a value"
 
 ## Content:
 
-1. Starting and typescript config
-2. Basic usage and understanding
-3. Generics
-4. Types and it's uses
-5. Tuples and Enums
+Starting and typescript config
+
+**Part:**
+
+1. Basic usage and understanding
+1. Generics
+1. Types and it's uses
+1. Tuples and Enums
+1. Functions and Objects
 
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_
