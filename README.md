@@ -44,4 +44,14 @@ function greet(args: any) {
 
 - This removes any warnings and the function works again
 
+---
+
+- To create an array use `[]` to specify em empty array after a type
+
+```ts
+let newArray: number[] = [1, 2, 2, 3, 5]
+OR
+let letterArray: string[] = ["a", "b", "hello"]
+```
+
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_
