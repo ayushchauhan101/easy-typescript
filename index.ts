@@ -1,8 +1,8 @@
-// type conditionalType = someType extends otherType ? trueType : falseType
+let phone: number = 32522
+let course: string = "english"
+let is_completed = true
 
-type myCustomType<T> = T extends string[] ? string : (T extends number[] ? number: never)
-
-const a : myCustomType<string[]> = '10'
-const b : myCustomType<string[]> = '20, hello, world, !sdfs'
-console.log(a)
-console.log(b)
+function greet(args: any) {
+	console.log(args)
+}
+greet("hello")
