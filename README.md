@@ -29,6 +29,17 @@ npm install
 npm run start
 ```
 
+---
+
+## basic understanding
+
+- Syntax:
+  `variable_name : type = value`
+
+```ts
+const var_name: string = "this is a value"
+```
+
 ## Content:
 
 1. Starting and typescript config
