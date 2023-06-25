@@ -29,4 +29,9 @@ npm install
 npm run start
 ```
 
+## Content: 
+1) Starting and typescript config
+2) Basic usage and understanding
+3) Generics
+
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_
