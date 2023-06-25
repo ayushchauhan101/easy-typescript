@@ -35,5 +35,6 @@ npm run start
 2. Basic usage and understanding
 3. Generics
 4. Types and it's uses
+5. Tuples and Enums
 
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_
