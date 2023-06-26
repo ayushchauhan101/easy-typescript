@@ -2,6 +2,8 @@
 
 ### Part5 - Functions and Objects
 
+**Functions**
+
 - Syntax :
 
 ```ts
@@ -32,5 +34,22 @@ function greet(name: string) {
 	return "access denied"
 }
 ```
+
+**Objects**
+
+- Syntax
+
+```ts
+let student: {
+	name: string
+	rollNum: number
+	score?: number
+}
+student = { name: "tom hanks", rollNum: 8938 }
+```
+
+- use `readonly` before a variable to protect it from modification later
+
+---
 
 _This is an ongoing project and the maintainer appreciate any and all input, issues, discussions as well as PR(Pull Request)_
